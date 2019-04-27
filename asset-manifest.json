@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.79d417a5.chunk.css",
-    "main.js": "/website/static/js/main.18724429.chunk.js",
-    "main.js.map": "/website/static/js/main.18724429.chunk.js.map",
+    "main.css": "/website/static/css/main.4d0ff0b8.chunk.css",
+    "main.js": "/website/static/js/main.fc941dbe.chunk.js",
+    "main.js.map": "/website/static/js/main.fc941dbe.chunk.js.map",
     "runtime~main.js": "/website/static/js/runtime~main.de462641.js",
     "runtime~main.js.map": "/website/static/js/runtime~main.de462641.js.map",
-    "static/js/2.53b80090.chunk.js": "/website/static/js/2.53b80090.chunk.js",
-    "static/js/2.53b80090.chunk.js.map": "/website/static/js/2.53b80090.chunk.js.map",
+    "static/js/2.5d63ebec.chunk.js": "/website/static/js/2.5d63ebec.chunk.js",
+    "static/js/2.5d63ebec.chunk.js.map": "/website/static/js/2.5d63ebec.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.df0855b267464ffccaa3d504222b88d4.js": "/website/precache-manifest.df0855b267464ffccaa3d504222b88d4.js",
+    "precache-manifest.0a5cf1e24f5f07677371ab54524455d1.js": "/website/precache-manifest.0a5cf1e24f5f07677371ab54524455d1.js",
     "service-worker.js": "/website/service-worker.js",
-    "static/css/main.79d417a5.chunk.css.map": "/website/static/css/main.79d417a5.chunk.css.map",
+    "static/css/main.4d0ff0b8.chunk.css.map": "/website/static/css/main.4d0ff0b8.chunk.css.map",
     "static/media/black-logo.png": "/website/static/media/black-logo.4a8f02d6.png",
-    "static/media/Gallary.css": "/website/static/media/stephen-baker-507933-unsplash.df9eef0d.jpg",
+    "static/media/Gallary.css": "/website/static/media/stephen-baker-507933-unsplash.8808ef61.jpg",
     "static/media/HeroPage.css": "/website/static/media/montylov-206783-unsplash.99656df9.jpg",
     "static/media/Parallax.css": "/website/static/media/tommy-bebo-600358-unsplash.65c14f6e.jpg"
   }
