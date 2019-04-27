@@ -8,11 +8,11 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Header />
-        <Route path="/" component={Home} />
-        <Route path="/players/" component={Players} />    
+        <Route exact path="/" component={Home} />
+        <Route exact path="/players" component={Players} />    
       </div>
     </Router>
   );
