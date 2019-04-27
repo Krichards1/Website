@@ -1,0 +1,26 @@
+.player-container {
+    border: 1px solid #f2f2f2;
+    padding: .5rem;
+    margin-bottom: 2px;
+    position: relative;
+    background-color: white;
+    cursor: pointer;
+}
+.player-container:hover,
+.player-container:focus {
+    left: -5px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 3px 1px -2px rgba(0,0,0,0.12);
+}
+
+.player-container:hover .handle,
+.player-container:focus .handle {
+    background-color:#44C8F5;
+}
+
+.handle {
+    background-color: #f2f2f2;
+    width: 10px;
+    height: 100%;
+}

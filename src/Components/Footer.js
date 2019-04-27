@@ -50,7 +50,7 @@ class Footer extends Component {
                     </a>
                 </Grid>
                 <Typography style={{color: '#44C8F5', paddingTop:1.5+'em'}} variant="overline" align="center">
-                    Powered by <FontAwesomeIcon size="md" icon={faReact} /> React
+                    Powered by <FontAwesomeIcon size="2x" icon={faReact} /> React
                 </Typography>
             </section>
             </React.Fragment>

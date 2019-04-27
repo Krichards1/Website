@@ -7,6 +7,7 @@
     margin-left: 0;
     margin-right: 25px;
 }
-.nav-item:hover {
+.nav-item:hover,
+.nav-item.selected {
     color: #44C8F5;
 }

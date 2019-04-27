@@ -10,7 +10,6 @@ import { CardContent } from '@material-ui/core';
 import FaceIcon from '@material-ui/icons/Face';
 import FingerprintIcon from '@material-ui/icons/Fingerprint';
 import SpeakerNotesIcon from '@material-ui/icons/SpeakerNotes';
-import Footer from '../Components/Footer';
 import Gallary from '../Components/Gallary';
 
 function Home () {
@@ -104,7 +103,6 @@ function Home () {
           </Grid>
         </Jumbotron>
         <Gallary/>
-        <Footer/>
       </React.Fragment>
     );
 }

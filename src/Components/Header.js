@@ -6,6 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Avatar from '@material-ui/core/Avatar';
 import { Link } from "react-router-dom";
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
     return (
@@ -37,11 +38,11 @@ const Header = () => {
                                 Donate
                                 </Typography>
                             </a>
-                            <Link to="players" className="nav-item">
+                            <NavLink to="/players" activeClassName="selected" className="nav-item">
                                 <Typography variant="button" color="inherit">
                                 Players
                                 </Typography>
-                            </Link>
+                            </NavLink>
                             <a className="nav-item">
                                 <Typography variant="button" color="inherit">
                                 Contact Us
