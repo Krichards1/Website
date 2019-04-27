@@ -5,6 +5,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Avatar from '@material-ui/core/Avatar';
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
@@ -29,18 +30,18 @@ const Header = () => {
                                 </Typography>
                             </a>
                         </Grid>
-                        <a href="/"><Avatar alt="Dip Logo" style={{height: 60+'px', width: 60+'px', marginRight:1+'em'}} src={require('../assets/black-logo.png')} /></a>
+                        <Link to="/"><Avatar alt="Dip Logo" style={{height: 60+'px', width: 60+'px', marginRight:1+'em'}} src={require('../assets/black-logo.png')} /></Link>
                         <Grid container style={{width:40+'%'}} alignItems="center" justify="flex-end">
                             <a className="nav-item">
                                 <Typography variant="button" color="inherit">
                                 Donate
                                 </Typography>
                             </a>
-                            <a className="nav-item">
+                            <Link to="players" className="nav-item">
                                 <Typography variant="button" color="inherit">
                                 Players
                                 </Typography>
-                            </a>
+                            </Link>
                             <a className="nav-item">
                                 <Typography variant="button" color="inherit">
                                 Contact Us
