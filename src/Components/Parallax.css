@@ -1,0 +1,8 @@
+.parallax-container {
+    height: 50vh;
+    background-image: url('../assets/tommy-bebo-600358-unsplash.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
