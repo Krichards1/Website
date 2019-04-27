@@ -12,7 +12,8 @@ import { CardContent } from '@material-ui/core';
 import FaceIcon from '@material-ui/icons/Face';
 import FingerprintIcon from '@material-ui/icons/Fingerprint';
 import SpeakerNotesIcon from '@material-ui/icons/SpeakerNotes';
-import Avatar from '@material-ui/core/Avatar';
+import Footer from './Components/Footer';
+import Gallary from './Components/Gallary';
 
 function App() {
   return (
@@ -105,6 +106,8 @@ function App() {
           </Grid>
         </Grid>
       </Jumbotron>
+      <Gallary/>
+      <Footer/>
     </div>
   );
 }

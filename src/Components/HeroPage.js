@@ -49,7 +49,7 @@ class HeroPage extends Component {
                         <div className="hero-image"></div>
                         <div className="callout">
                             <Typography gutterBottom={true} variant="h2">
-                                <span className="highlight">Imagine Better</span>
+                                <span className="highlight">The Big Picture</span>
                             </Typography>
                             <Typography gutterBottom={true} variant="h2">
                                 <span className="highlight">Text Here</span>
@@ -72,8 +72,7 @@ class HeroPage extends Component {
                 <Dialog
                 open={this.state.modalOpen}
                 onClose={this.closeModalHandler}
-                aria-labelledby="form-dialog-title"
-                >
+                aria-labelledby="form-dialog-title">
                     <DialogTitle id="form-dialog-title">Example Popup</DialogTitle>
                     <DialogContent>
                         <DialogContentText>
