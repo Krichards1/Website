@@ -36,14 +36,7 @@ function App() {
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
           </Typography>
       </Jumbotron>
-      <Parallax>
-        <Typography style={{color: '#FFFFFF'}} gutterBottom={true} variant="display3" align="center">
-            <span>Filler Text</span>
-        </Typography>
-        <Typography style={{color: '#FFFFFF'}} gutterBottom={true} variant="display3" align="center">
-            <span>Here</span>
-        </Typography>
-      </Parallax>
+      <Parallax/>
       <Jumbotron>
         <Typography style={{color: '#44C8F5'}} gutterBottom={true} variant="display1" align="center">
           These Are Cards
