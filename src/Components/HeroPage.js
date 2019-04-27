@@ -8,8 +8,7 @@ import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
-
-
+import Grid from '@material-ui/core/Grid';
 import { withStyles } from '@material-ui/core/styles';
 
 const StyledButton = withStyles({
@@ -47,13 +46,7 @@ class HeroPage extends Component {
             <React.Fragment>
                 <section className="home-container">
                     <div className="home-content">
-                        <div className="hero-image left">
-                            <img className="logo" style={{marginTop: 1+'px'}} src={require('../assets/hero-left.png')} alt="blk white basketball hoop left" />
-                        </div>
-                        <div className="midd"></div>
-                        <div className="hero-image right">
-                            <img className="logo" src={require('../assets/hero-right.png')} alt="blk white basketball hoop right" />
-                        </div>
+                        <div className="hero-image"></div>
                         <div className="callout">
                             <Typography gutterBottom={true} variant="h2">
                                 <span className="highlight">Imagine Better</span>
@@ -62,7 +55,7 @@ class HeroPage extends Component {
                                 <span className="highlight">Text Here</span>
                             </Typography>
                         <div className="subtext">
-                            <Typography variant="overline">
+                            <Typography variant="subtitle2">
                             <span className="sub">
                                 Here you should think about what you want your call to action to be. Sign up? Contact? Read More?
                             </span>
@@ -86,21 +79,28 @@ class HeroPage extends Component {
                         <DialogContentText>
                         Modals are pop out screens that are usually useed to display important information, or forms for sign ups and logins. You can configure a modal to popup for just about any situation such as a button click or when the user is doing something.
                         </DialogContentText>
-                        <TextField
-                        autoFocus
-                        margin="dense"
-                        id="fname"
-                        label="First Name"
-                        type="text"
-                        style={{paddingRight: 2+'rem' }}
-                        />
-                        <TextField
-                        autoFocus
-                        margin="dense"
-                        id="lname"
-                        label="Last Name"
-                        type="Text"
-                        />
+                        <Grid container spacing={16}>
+                            <Grid item xs={6}>
+                                <TextField
+                                autoFocus
+                                margin="dense"
+                                id="fname"
+                                label="First Name"
+                                type="text"
+                                fullWidth
+                                />
+                            </Grid>
+                            <Grid item xs={6}>
+                                <TextField
+                                autoFocus
+                                margin="dense"
+                                id="lname"
+                                label="Last Name"
+                                type="Text"
+                                fullWidth
+                                />
+                            </Grid>
+                        </Grid>
                         <TextField
                         autoFocus
                         margin="dense"

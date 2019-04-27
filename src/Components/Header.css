@@ -1,21 +1,12 @@
-.nav-items {
-    display: flex;
-    flex-direction: row;
-}
-.toolbar {
-    justify-content: space-between;
-}
 .nav-item {
-    margin-right: 1.5rem;
+    margin-left: 25px;
     text-decoration: none;
     color: #8E8E8E;
-    border-bottom: 3px solid #44C8F5;
+}
+.nav-item.left {
+    margin-left: 0;
+    margin-right: 25px;
 }
 .nav-item:hover {
-    border-bottom-color: #8E8E8E;
-}
-.logo {
-    margin: 10;
-    width: 60;
-    height: 60;
+    color: #44C8F5;
 }
