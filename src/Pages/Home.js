@@ -49,7 +49,8 @@ function Home () {
             alignItems="center"
             spacing={24}
           >
-            <Grid item xs={6}>
+            <Grid item xs={2}></Grid>
+            <Grid item xs={4}>
               <Card>
                 <CardContent>
                   <Grid container direction="column" alignItems="center">
@@ -66,7 +67,7 @@ function Home () {
                 </CardContent>
               </Card>
             </Grid>
-            <Grid item xs={6}>
+            <Grid item xs={4}>
               <Card>
                 <CardContent>
                   <Grid container direction="column" alignItems="center">
@@ -83,7 +84,9 @@ function Home () {
                 </CardContent>
               </Card>
             </Grid>
-            <Grid item xs={6}>
+            <Grid item xs={2}></Grid>
+            <Grid item xs={2}></Grid>
+            <Grid item xs={4}>
               <Card>
                 <CardContent>
                   <Grid container direction="column" alignItems="center">
@@ -100,6 +103,24 @@ function Home () {
                 </CardContent>
               </Card>
             </Grid>
+            <Grid item xs={4}>
+              <Card>
+                <CardContent>
+                  <Grid container direction="column" alignItems="center">
+                    <SpeakerNotesIcon style={{color: 'orange', fontSize: 100+'px'}}/>
+                    <Typography variant="h6" align="left" paragraph gutterBottom>
+                      Lorem ipsum
+                    </Typography>
+                    <Typography variant="caption" align="left" gutterBottom>
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+                      <br/>
+                      Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+                    </Typography>
+                  </Grid>
+                </CardContent>
+              </Card>
+            </Grid>
+            <Grid item xs={2}></Grid>
           </Grid>
         </Jumbotron>
         <Gallary/>

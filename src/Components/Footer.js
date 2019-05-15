@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Grid from '@material-ui/core/Grid'
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF, faTwitter, faReact} from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faTwitter, faReact, faVimeoV} from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
@@ -21,6 +21,11 @@ class Footer extends Component {
                         <FontAwesomeIcon size="lg" icon={faFacebookF} />
                     </a>
                     </Grid>
+                    <Grid item>
+                    <a className="nav-item">
+                        <FontAwesomeIcon size="lg" icon={faVimeoV} />
+                    </a>
+                    </Grid>                    
                     <Grid item>
                         <a className="nav-item">
                             <FontAwesomeIcon size="lg"  icon={faTwitter} />

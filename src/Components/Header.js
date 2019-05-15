@@ -33,11 +33,11 @@ const Header = () => {
                         </Grid>
                         <Link to="/"><Avatar alt="Dip Logo" style={{height: 60+'px', width: 60+'px', marginRight:1+'em'}} src={require('../assets/black-logo.png')} /></Link>
                         <Grid container style={{width:40+'%'}} alignItems="center" justify="flex-end">
-                            <a className="nav-item">
+                            <NavLink to="/donate" activeClassName="selected" className="nav-item">
                                 <Typography variant="button" color="inherit">
                                 Donate
                                 </Typography>
-                            </a>
+                            </NavLink>
                             <NavLink to="/players" activeClassName="selected" className="nav-item">
                                 <Typography variant="button" color="inherit">
                                 Players
